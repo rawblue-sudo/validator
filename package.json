@@ -4,7 +4,9 @@
   "description": "string validator",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\""
   },
   "keywords": [
     "validator"
